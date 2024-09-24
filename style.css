@@ -1,9 +1,9 @@
 .navBar {
-        font-family: sans-serif;
+        font-family: 'Share Tech Mono';font-size: 22px;
         color: #727272;
     }
 .text-content {
-    font-family: sans-serif;
+        font-family: 'consolas' ;font-size: 22px;
         color: #fff;
 }
 
