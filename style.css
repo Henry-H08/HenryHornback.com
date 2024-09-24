@@ -3,6 +3,7 @@
         color: #727272;
         text-align: center;
         display: inline-block;
+        text-decoration: none;
     }
 .text-content {
         font-family: 'Noto Sans Mono';font-size: 22px;
