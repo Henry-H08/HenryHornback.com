@@ -3,6 +3,7 @@
         color: #727272;
         text-align: center;
         display: inline-block;
+        display:flex;
     }
 .navBar {
         font-family: 'Share Tech Mono';font-size: 22px;
