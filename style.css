@@ -9,3 +9,6 @@
         color: #f3f;
         float: right;
 }
+.container {
+    position: relative;
+}
