@@ -1,5 +1,5 @@
 .navBar {
-    font-family: 'Share Tech Mono';font-size: 22px;
+
     font-family: 'Share Tech Mono';font-size: 10px;
     color: #727272;
     text-align: center;
@@ -8,6 +8,6 @@
 .text-content {
     font-family: 'Noto Sans Mono';font-size: 22px;
     color: #fff;
-    color: #f3f;
+    color: #fff;
     float: right;
 }
