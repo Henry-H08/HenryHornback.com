@@ -215,3 +215,8 @@ body {
   .blog-entry .meta > div a {
     font-size: 15px;
     color: #8c8c8c; }
+
+.top {
+  background-image: url("space.jpg");
+
+}
