@@ -1,5 +1,4 @@
 :root{
-  --bg-color: #000;
   --text: #fff;
   --muted: rgba(255,255,255,0.65);
   --accent: #7bdff6;
@@ -23,12 +22,11 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
   align-items:center;
   position:relative;
   overflow:hidden;
-  background-color: #000;
+
   background-image:
-    radial-gradient(ellipse at 20% 40%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.0) 20%),
-    radial-gradient(ellipse at 80% 70%, rgba(200,180,255,0.04) 0%, rgba(255,255,255,0.0) 20%),
-    linear-gradient(180deg, rgba(8,8,12,0.5) 0%, rgba(0,0,0,0.55) 100%);
+    url("images/space1.jpeg");
   background-blend-mode: screen, screen, normal;
+  background-size:cover
 }
 
 /* Stars layer */
