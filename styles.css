@@ -1,4 +1,5 @@
 :root{
+   --bg-color: #000;
   --text: #fff;
   --muted: rgba(255,255,255,0.65);
   --accent: #7bdff6;
@@ -22,7 +23,7 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
   align-items:center;
   position:relative;
   overflow:hidden;
-
+  background-color: #000;
   background-image:
     url("images/space1.jpeg");
   background-blend-mode: screen, screen, normal;
