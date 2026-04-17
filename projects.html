@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Henry Hornback</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="top-nav">
+      <a class="nav-item" href="index.html"><span class="nav-num">00</span> : Home</a>
+      <span class="sep">|</span>
+      <a class="nav-item active" href="projects.html"><span class="nav-num">01</span> : Projects</a>
+      <span class="sep">|</span>
+      <a class="nav-item" href="experience.html"><span class="nav-num">02</span> : Experience</a>
+      <span class="sep">|</span>
+      <a class="nav-item" href="education.html"><span class="nav-num">03</span> : Education</a>
+      <span class="sep">|</span>
+      <a class="nav-item" href="contact.html"><span class="nav-num">04</span> : Contact</a>
+    </nav>
+  </header>
+
+  <main class="content page">
+    <h2 class="page-title">Selected Projects</h2>
+
+    <section class="project-list">
+      <article class="project-card">
+        <div class="project-meta">
+          <h3 class="project-title">StellarNotes — Collaborative Notes App</h3>
+          <p class="project-desc">Real-time, collaborative markdown editor with offline-first support and end-to-end encryption.</p>
+          <ul class="tech-list"><li>React</li><li>TypeScript</li><li>WebRTC</li><li>IndexedDB</li></ul>
+          <div class="project-links">
+            <a href="#" class="link">Live Demo</a>
+            <a href="#" class="link">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-meta">
+          <h3 class="project-title">DataForge — ETL & Visualization Toolkit</h3>
+          <p class="project-desc">Pipeline framework that extracts and transforms data, with plug-in visualizations and an interactive dashboard.</p>
+          <ul class="tech-list"><li>Python</li><li>FastAPI</li><li>D3.js</li><li>Postgres</li></ul>
+          <div class="project-links">
+            <a href="#" class="link">Case Study</a>
+            <a href="#" class="link">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-meta">
+          <h3 class="project-title">Hornback Robotics ��� Path Planning Suite</h3>
+          <p class="project-desc">A modular path planning library for small robots that balances performance and safety guarantees.</p>
+          <ul class="tech-list"><li>C++</li><li>ROS</li><li>Gazebo</li></ul>
+          <div class="project-links">
+            <a href="#" class="link">Paper</a>
+            <a href="#" class="link">Repo</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="project-case">
+      <h3>Project deep dive: StellarNotes</h3>
+      <p>Problem: Teams need a privacy-focused, real-time editor that works offline and syncs seamlessly. Solution: a CRDT-based document model with background sync, operational transforms, and encryption at-rest and in-transit.</p>
+      <h4>Role & impact</h4>
+      <ul>
+        <li>Built the collaborative engine and sync layer; reduced merge conflicts by 92% versus naive approaches.</li>
+        <li>Designed the offline-first UX so changes survive intermittent connectivity.</li>
+      </ul>
+      <h4>Key design decisions</h4>
+      <ol>
+        <li>CRDTs for local-first consistency</li>
+        <li>WebRTC for peer-to-peer sync when possible</li>
+        <li>IndexedDB for local persistence</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">© 2026 Henry Hornback — Built with HTML, CSS and a little JS.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
