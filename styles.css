@@ -16,18 +16,29 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
 .top-nav .nav-num{font-weight:600;margin-right:6px}
 .top-nav .sep{color:rgba(255,255,255,0.12);margin:0 10px}
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Hero */
 .hero{
   min-height:100vh;
   display:flex;
   align-items:center;
-  position:relative;
   overflow:hidden;
   background-color: #000;
   background-image:
-    url("images/space1.jpeg");
-  background-blend-mode: screen, screen, normal;
-  background-size:cover
+  url("images/4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: 131%;
+  background-position: center; 
+
+
 }
 
 /* Stars layer */
@@ -57,7 +68,7 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
   position:relative;z-index:2;max-width:var(--max-width);padding:110px 48px 80px;margin-left:120px;
 }
 .headline{
-  margin:0;color:#fff;font-weight:900;line-height:0.92;
+  margin:0;color:#FFF;font-weight:900;line-height:0.92;
   font-size:clamp(3.2rem,6.2vw,7.6rem);
   letter-spacing:-1px;
   font-family:Inter,system-ui;
@@ -67,6 +78,13 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
 .hero-cta{margin-top:28px;display:flex;gap:12px}
 .btn{background:#fff;color:#000;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:700}
 .btn.outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.12)}
+.btn:hover,
+.btn:focus {
+  background: #fff;  
+  color:#000;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
 
 /* content pages */
 .content{padding:120px 48px;max-width:var(--max-width);margin:0 auto;position:relative}
