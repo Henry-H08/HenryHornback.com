@@ -35,7 +35,7 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  background-size: 131%;
+  background-size: 120%;
   background-position: center; 
 
 
@@ -80,8 +80,8 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
 .btn.outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.12)}
 .btn:hover,
 .btn:focus {
-  background: #fff;  
-  color:#000;
+  background: rgba(255,255,255,0.12);  
+  color:#FFF;
   transform: translateY(-1px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
