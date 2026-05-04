@@ -46,10 +46,38 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
 
 }
 
+.contact-title
+{
+  margin:0;color:#FFF;font-weight:900;line-height:0.92;
+  font-size:clamp(3.2rem,6.2vw,7.6rem);
+  letter-spacing:-1px;
+  font-family:Inter,system-ui;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.6);
+
+}
 
 
+/* unvisited link */
+a:link {
+  color: #26B7FA;
+}
 
-/* hero content */
+/* visited link */
+a:visited {
+  color: #26B7FA;
+}
+
+/* mouse over link */
+a:hover {
+  color: #22a2dd;
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 255, 255);
+}
+
+/* hero content */ 
 .hero-inner{
   position:relative;z-index:2;max-width:var(--max-width);padding:110px 48px 80px;margin-left:120px;
 }
@@ -104,8 +132,20 @@ html,body{height:100%;margin:0;background:var(--bg-color);color:var(--text);font
 }
 
 
-/* content pages */
-.content{padding:120px 48px;max-width:var(--max-width);margin:0 auto;position:relative}
+.content {
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  background-color: #000;
+  background-image:
+  url("images/4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: 120%;
+  background-position: center;
+}
 .page-title{font-size:2.4rem;margin:0 0 24px;font-weight:800}
 .project-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
 .project-card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:18px;border-radius:8px;border:1px solid rgba(255,255,255,0.04)}
